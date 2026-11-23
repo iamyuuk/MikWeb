@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "bun run prepare:messages && bun run scripts/prepare-cap-assets.ts && bun run --bun next dev",
+    "dev": "bun run prepare:messages && bun run scripts/prepare-cap-assets.ts && next dev",
     "build": "bun run prepare:messages && bun run scripts/prepare-cap-assets.ts && bun run --bun next build",
     "prepare:messages": "bun run scripts/prepare-error-messages.ts",
     "start": "bun run --bun next start",
